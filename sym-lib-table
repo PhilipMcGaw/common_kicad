@@ -1,7 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "Logos - ChargePoint")(type "KiCad")(uri "${KICAD_USER_TEMPLATE_DIR}/common/Assets/Components/Logos/ChargePoint Logo.kicad_sym")(options "")(descr "ChargePoint Logos"))
-  (lib (name "Logos - SquashedFly")(type "KiCad")(uri "${KICAD_USER_TEMPLATE_DIR}/common/Assets/Components/Logos/SquashedFly Logo.kicad_sym")(options "")(descr "SquashedFly Logos"))
   (lib (name "Power Rails")(type "KiCad")(uri "${KICAD_USER_TEMPLATE_DIR}/common/Assets/Components/_Misc/Power_Rails.kicad_sym")(options "")(descr "Power Rails"))
   (lib (name "Passive Components")(type "KiCad")(uri "${KICAD_USER_TEMPLATE_DIR}/common/Assets/Components/Passives/Passives.kicad_sym")(options "")(descr "Passive Components"))
   (lib (name "Relays - Picker")(type "KiCad")(uri "${KICAD_USER_TEMPLATE_DIR}/common/Assets/Components/Relays/Picker - Relay.kicad_sym")(options "")(descr "Picker Relays"))
