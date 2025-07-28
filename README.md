@@ -1,4 +1,4 @@
-# kicad_template_common
+# Common KiCAD Modules
 
 This library package owes a lot of thanks to [DevTank](https://devtank.co.uk/). It is heavely inspired by their kicad common [https://github.com/devtank-ltd/kicad_devtank_common](repo).
 
