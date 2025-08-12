@@ -37,7 +37,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Assets/SubPCBs/Shrimps/Shrimp ATmega328P-P.kicad_sch"
+		(property "Sheetfile" "Shrimps/Shrimp ATmega328P-P.kicad_sch"
 			(at 38.1 72.9746 0)
 			(effects
 				(font

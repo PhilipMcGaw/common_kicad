@@ -37,7 +37,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Shrimps.kicad_sch"
+		(property "Sheetfile" "Assets/SubPCBs/Shrimps.kicad_sch"
 			(at 34.29 177.1146 0)
 			(effects
 				(font
