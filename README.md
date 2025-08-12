@@ -1,18 +1,18 @@
-# Common KiCAD Modules
+# Common KiCAD Template
 
-This library package owes a lot of thanks to [DevTank](https://devtank.co.uk/). It is heavely inspired by their kicad common [https://github.com/devtank-ltd/kicad_devtank_common](repo).
+This library package owes a great deal of thanks to [DevTank](https://devtank.co.uk/). It is heavily inspired by their KiCad common repository [https://github.com/devtank-ltd/kicad_devtank_common](repo).
 
 ## KiCAD Setup Notes
 
-The following guide decribes my current procedure to setup a new project in KiCAD which will allow source version control in a git repository and on demand access to my updated libaries.
+The following guide describes my current procedure for setting up a new project in KiCAD, enabling source version control in a Git repository and on-demand access to my updated libraries.
 
-### To start a new git managed Kicad project:
+### To start a new git managed KiCAD project:
 
-The following steps provide a completely controlled source method for starting a new kicad project whilst allowing shared use and collaboration of the Devtank libraries.
+The following steps provide a completely controlled source method for starting a new KiCAD project whilst allowing shared use and collaboration of the Devtank libraries.
 
 #### Step 1
 
-Create git controlled folder for new project and add common Kicad libraries.
+Create a Git-controlled folder for the new project and add shared KiCAD libraries.
 
 **(go to the folder where you want to store your projects, eg. cd Projects)**
 
@@ -69,16 +69,14 @@ git commit -a -m "Setup common libraries for my Kicad project."
 Step 3
 --------
 
-Create a new Kicad project from common template.
-
-
+Create a new KiCAD project from the common template.
 
 
 
 Cloning an existing project
 ---------------------------
 
-To checkout an existing project afresh do:
+To check out an existing project afresh, do:
 
     git clone --recursive ssh.devtank.co.uk:/git/my_new_kicad_project
     cd my_new_kicad_project
@@ -98,7 +96,7 @@ git submodule update
 Updating an existing project
 ----------------------------
 
-**(You may want to do this if for example another user has a project under development and they are pushing changes to the server. You will need to pull down the latest files using the folllowing commands.)**
+**(You may want to do this if, for example, another user has a project under development and they are pushing changes to the server. You will need to pull down the latest files using the following commands.)**
 
     git pull
     git submodule update
@@ -111,10 +109,10 @@ git submodule update
 --->
 
 
-Updating the common Devtank libaries used
+Updating the common Devtank libraries used
 -----------------------------------------
 
-**(This should only be done if you want to update an existing project with the latest Devtank libaries or the project is still under development. If you just want to view an existing project then then this step is not required.)**
+**(This should only be done if you want to update an existing project with the latest Devtank libraries or if the project is still under development. If you just want to view an existing project, then this step is not required.)**
 
 
     git submodule sync
@@ -132,9 +130,9 @@ git commit -a -m "Updated to latest common libraries for feature foobar."
 Updating the master Project
 ---------------------------
 
-To commit local changes to the project do:
+To commit local changes to the project, do:
 
-**(Note: Your push maybe refused if you have made changes to a version older than in the remote git repository. If multiple people are working on a project, best pull often or work on separate branches. If after the fact, you must do a rebase or merge and resolve the differences.)**
+**(Note: Your push may be refused if you have made changes to a version older than in the remote git repository. If multiple people are working on a project, it's best to pull often or work on separate branches. If, after the fact, you must do a rebase or merge and resolve the differences.)**
 
 **(This includes changing the version of the common libraries used as done above.)**
 
@@ -151,14 +149,14 @@ git push # Push changes to central repo.*
 --->
 
 
-Updating master common Library
+Updating the master shared Library
 ------------------------------
 
-To commit local changes to the common libraries do:
+To commit local changes to the common libraries, do:
 
-**(The following steps push local changes to the master (server) git repository and should be done in the order below, e.g. common libraries first and then project files if you are baselining an entire project. If you just want to push library changes so that other users can see them then you only need to follow the steps for common library updates.)**
+**(The following steps push local changes to the master (server) git repository. They should be done in the order below, e.g. common libraries first and then project files if you are baselining an entire project. If you want to push library changes so that other users can see them, then you only need to follow the steps for common library updates.)**
 
-**(Note: Your push maybe refused if you have made changes to a version older than in the remote git repository. If multiple people are working on a project, best pull often or work on separate branches. If after the fact, you must do a rebase or merge and resolve the differences.)**
+**(Note: Your push may be refused if you have made changes to a version older than in the remote git repository. If multiple people are working on a project, it's best to pull often or work on separate branches. If, after the fact, you must do a rebase or merge and resolve the differences.)**
 
 **(Note: the git push command pushes the local changes to the master server version so that others can access the changes and use them.)**
 
@@ -172,7 +170,7 @@ If reading this with a text editor, remove prefixing spaces before entering comm
 
 cd common
 git add * # Make sure any new files are added.
-git commit -a -m "What my changes to the common libraries where."
+git commit -a -m "What my changes to the common libraries were."
 git push # Push changes to central repo.
 --->
 
