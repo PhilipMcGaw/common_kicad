@@ -1,11 +1,10 @@
 @echo off
 
-echo Purges old copyies if they are here
+echo Purges old copies if they are here
 del main.zip /F
 rmdir common_kicad-main /Q /S
 
-
-echo grab and un-zip a new copy
+echo grab and unzip a new copy
 
 bin\wget.exe https://github.com/PhilipMcGaw/common_kicad/archive/refs/heads/main.zip
 tar -xf main.zip
