@@ -13,4 +13,5 @@
   (lib (name "Eurocard")(type "KiCad")(uri "${KICAD_USER_TEMPLATE_DIR}/common/Assets/Components/_Misc/Eurocard.kicad_sym")(options "")(descr "Eurocard header DevTank"))
   (lib (name "SquashedFly Logo")(type "KiCad")(uri "${KICAD_USER_TEMPLATE_DIR}/common/Assets/Components/Logos/SquashedFly Logo.kicad_sym")(options "")(descr ""))
   (lib (name "Sick of Beige")(type "KiCad")(uri "${KICAD_USER_TEMPLATE_DIR}/common/Assets/Components/_Misc/Sick of Beige.kicad_sym")(options "")(descr ""))
+  (lib (name "custom_lib")(type "KiCad")(uri "${KICAD_USER_TEMPLATE_DIR}/common/Assets/KicadLibs/custom_lib.kicad_sym")(options "")(descr ""))
 )

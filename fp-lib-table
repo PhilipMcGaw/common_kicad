@@ -13,4 +13,5 @@
   (lib (name "Eurocard")(type "KiCad")(uri "${KICAD_USER_TEMPLATE_DIR}/common/Assets/Components/_Misc/Eurocard.pretty")(options "")(descr ""))
   (lib (name "Relays - Panasonic")(type "KiCad")(uri "${KICAD_USER_TEMPLATE_DIR}/common/Assets/Components/Relays/Panasonic - Relay.pretty")(options "")(descr "Panasonic Relays"))
   (lib (name "Batteries")(type "KiCad")(uri "${KICAD_USER_TEMPLATE_DIR}/common/Assets/Components/Batteries")(options "")(descr ""))
+  (lib (name "footprint")(type "KiCad")(uri "${KICAD_USER_TEMPLATE_DIR}/common/Assets/footprint.pretty")(options "")(descr ""))
 )
