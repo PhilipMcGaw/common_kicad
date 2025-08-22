@@ -12,49 +12,6 @@
 		(comment 1 "${Designed By}")
 	)
 	(lib_symbols)
-	(sheet
-		(at 133.35 86.36)
-		(size 36.83 31.75)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "dbbfd8d6-519b-46ce-9f06-a22221cb98b9")
-		(property "Sheetname" "Shrimps"
-			(at 133.35 85.6484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Assets/SubPCBs/Shrimps.kicad_sch"
-			(at 133.35 118.6946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "common"
-				(path "/4f572b99-5eee-4690-a22b-0d608e2cc8a2"
-					(page "2")
-				)
-			)
-		)
-	)
 	(sheet_instances
 		(path "/"
 			(page "1")
