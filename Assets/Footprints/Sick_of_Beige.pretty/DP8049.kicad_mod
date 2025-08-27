@@ -1,15 +1,19 @@
 (footprint "DP8049" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
-  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 5605fe87-f476-4e00-9813-424e4756643c)
   )
-  (fp_text value "DP8049" (at 0 1 unlocked) (layer "F.Fab")
+  (fp_text value "DP8049" (at 0 1 unlocked) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 6bf95c10-2f05-4166-86d4-98e8c1958df0)
   )
-  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
+  (fp_text user "https://labbook.skippy.org.uk/projects/kicad/sick_of_beige" (at 0 30.48 unlocked) (layer "Cmts.User")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f777cb5e-a524-47b6-ae4b-ec3b6698602d)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 81a491f4-2e75-49de-a192-ff0906bb4ac7)
   )

@@ -5,9 +5,13 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d12d4a07-ff36-48c6-ab6c-b105cb56c8d9)
   )
-  (fp_text value "DP6037" (at -20 -15 unlocked) (layer "F.SilkS")
+  (fp_text value "DP6037" (at -20 -15 unlocked) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp c0083e23-481a-4e40-9204-0f38cad0a3cb)
+  )
+  (fp_text user "https://labbook.skippy.org.uk/projects/kicad/sick_of_beige" (at 0 24.13 unlocked) (layer "Cmts.User")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 83041b75-5d0e-432d-a501-42d52f031a38)
   )
   (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
