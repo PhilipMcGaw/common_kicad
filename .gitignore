@@ -7,3 +7,4 @@
 *.kicad_sch-bak
 */*-backups/*.zip
 ~*
+/common-backups
