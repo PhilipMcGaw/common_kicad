@@ -13,3 +13,4 @@ This library package owes a great deal of thanks to [DevTank](https://devtank.co
 
 ## KiCAD Setup Notes
 
+`git submodule add https://github.com/PhilipMcGaw/common_kicad KiCAD/Common`
